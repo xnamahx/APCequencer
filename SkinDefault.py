@@ -1,7 +1,7 @@
 #Embedded file name: /Users/versonator/Jenkins/live/Binary/Core_Release_64_static/midi-remote-scripts/_APC/SkinDefault.py
 from _Framework.Skin import Skin
 from _Framework.ButtonElement import Color
-from Push.Colors import Rgb, Pulse, Blink
+from _PushLegacy.Colors import Rgb, Pulse, Blink
 GREEN = Color(1)
 GREEN_BLINK = Color(2)
 RED = Color(3)
@@ -40,6 +40,26 @@ class BiLedColors:
 
 
 class RgbColors:
+    
+    """lew added from push legacy 22/10/17"""
+    class Instrument:
+        NoteBase = Rgb.OCEAN
+        NoteScale = Rgb.WHITE
+        NoteNotScale = Rgb.BLACK
+        NoteInvalid = Rgb.BLACK
+        Feedback = Rgb.GREEN
+        FeedbackRecord = Rgb.RED.shade(1)
+        NoteAction = Rgb.RED    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     class DrumGroup:
       PadSelected = Rgb.OCEAN
       PadSelectedNotSoloed = Rgb.OCEAN
@@ -54,9 +74,9 @@ class RgbColors:
     class LoopSelector:
       Playhead = Rgb.GREEN
       PlayheadRecord = Rgb.RED
-      SelectedPage = Rgb.MAGENTA
+      SelectedPage = Rgb.BLACK#Rgb.MAGENTA         # lew
       InsideLoopStartBar = Rgb.OCEAN
-      InsideLoop = Rgb.CYAN
+      InsideLoop = Rgb.OCEAN#Rgb.CYAN     # lew
       OutsideLoop = Rgb.WHITE
     class DefaultButton:
       On = Color(127)

@@ -1,7 +1,7 @@
 import sys
 from itertools import chain, imap, ifilter
 from _Framework.SubjectSlot import subject_slot, subject_slot_group
-from Push.NoteEditorComponent import NoteEditorComponent, most_significant_note
+from _PushLegacy.NoteEditorComponent import NoteEditorComponent, most_significant_note
 from APCMessenger import APCMessenger
 
 def color_for_note(note):

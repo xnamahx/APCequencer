@@ -1,4 +1,4 @@
-from Push.NoteSettingsComponent import NoteEditorSettingsComponent
+from _PushLegacy.NoteSettingsComponent import NoteEditorSettingsComponent
 from _APC.RingedEncoderElement import RING_SIN_VALUE
 from APCMessenger import APCMessenger
 

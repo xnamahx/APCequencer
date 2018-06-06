@@ -1,7 +1,7 @@
 from _Framework.ButtonElement import ButtonElement
-from Push.ConfigurableButtonElement import ConfigurableButtonElement
+from _PushLegacy.ConfigurableButtonElement import ConfigurableButtonElement
 from _Framework.Skin import Skin, SkinColorMissingError
-from Push.Colors import Rgb
+from _PushLegacy.Colors import Rgb
 
 class ColorButtonElement(ConfigurableButtonElement):
   """ Same as Push's but doesn't change channels """

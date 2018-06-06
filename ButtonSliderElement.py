@@ -1,5 +1,5 @@
 from _Framework.ButtonSliderElement import ButtonSliderElement
-from Push.Colors import Rgb
+from _PushLegacy.Colors import Rgb
 
 class ButtonSliderElement(ButtonSliderElement):
   """ Fixes the broken scaling code on the _Framework example
